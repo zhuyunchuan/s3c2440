@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'noos.tra' Ok.
+### Creating ADS-LD Command Line
+### ADS-LD Command completed:
+--device DARMSS9 *.o --strict --scatter "noos.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\noos.map" 
+-o "noos.axf" 
+### Creating ADS-LD Command Line
+### ADS-LD Command completed:
+--device DARMSS9 *.o --strict --scatter ".\obj\noos.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\noos.map" 
+-o ".\obj\noos.axf" 
+### Creating ADS-LD Command Line
+### ADS-LD Command completed:
+--device DARMSS9 *.o --strict --scatter ".\obj\noos.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\noos.map" 
+-o ".\obj\noos.axf" 

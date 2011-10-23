@@ -1,0 +1,24 @@
+*** Creating Trace Output File '.\obj\noos.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\s3c2440.o"'
+### List of Objects: adding '".\obj\clock.o"'
+### List of Objects: adding '".\obj\init.o"'
+### List of Objects: adding '".\obj\irq.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### ADS-LD Command completed:
+--device DARMSS9 ".\obj\s3c2440.o" ".\obj\clock.o" ".\obj\init.o" ".\obj\irq.o" ".\obj\main.o" ".\obj\uart.o" --strict --scatter ".\obj\noos.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\noos.map" -o ".\obj\noos.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\noos.axf'
+### ADS-LD Command File: '.\obj\noos.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\noos.lnp', Handle=0x000001F4
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\noos.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

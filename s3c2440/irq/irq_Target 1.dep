@@ -1,0 +1,5 @@
+Dependencies for Project 'irq', Target 'Target 1': (DO NOT MODIFY !)
+F (.\S3C2440.s)(0x4C80BD86)(--cpu ARM920T --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Samsung" --list "S3C2440.lst" --xref -o "S3C2440.o" --depend "S3C2440.d")
+F (.\clock.c)(0x4E4BD354)(-c --cpu ARM920T -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Samsung" -o "clock.o" --omf_browse "clock.crf" --depend "clock.d")
+F (.\init.c)(0x4E638911)(-c --cpu ARM920T -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Samsung" -o "init.o" --omf_browse "init.crf" --depend "init.d")
+F (.\main.c)(0x4E61AC97)(-c --cpu ARM920T -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Samsung" -o "main.o" --omf_browse "main.crf" --depend "main.d")

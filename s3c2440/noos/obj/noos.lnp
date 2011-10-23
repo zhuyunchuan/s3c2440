@@ -1,4 +1,0 @@
---device DARMSS9 ".\obj\s3c2440.o" ".\obj\clock.o" ".\obj\init.o" ".\obj\irq.o" ".\obj\main.o" ".\obj\uart.o" --strict --scatter ".\obj\noos.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\noos.map" -o ".\obj\noos.axf"

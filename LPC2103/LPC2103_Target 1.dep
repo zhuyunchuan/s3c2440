@@ -1,0 +1,4 @@
+Dependencies for Project 'LPC2103', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4C80BD84)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x4EB54C87)()
+F (.\type.h)(0x4EB54C6F)()

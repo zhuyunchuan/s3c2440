@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABT_Stack_Size	Startup.s	/^ABT_Stack_Size  EQU     0x00000000$/;"	d
+BCFG0_OFS	Startup.s	/^BCFG0_OFS       EQU     0x00            ; BCFG0 Offset$/;"	d
+BCFG0_SETUP	Startup.s	/^BCFG0_SETUP EQU         0$/;"	d
+BCFG0_Val	Startup.s	/^BCFG0_Val   EQU         0x0000FBEF$/;"	d
+BCFG1_OFS	Startup.s	/^BCFG1_OFS       EQU     0x04            ; BCFG1 Offset$/;"	d
+BCFG1_SETUP	Startup.s	/^BCFG1_SETUP EQU         0$/;"	d
+BCFG1_Val	Startup.s	/^BCFG1_Val   EQU         0x0000FBEF$/;"	d
+BCFG2_OFS	Startup.s	/^BCFG2_OFS       EQU     0x08            ; BCFG2 Offset$/;"	d
+BCFG2_SETUP	Startup.s	/^BCFG2_SETUP EQU         0$/;"	d
+BCFG2_Val	Startup.s	/^BCFG2_Val   EQU         0x0000FBEF$/;"	d
+BCFG3_OFS	Startup.s	/^BCFG3_OFS       EQU     0x0C            ; BCFG3 Offset$/;"	d
+BCFG3_SETUP	Startup.s	/^BCFG3_SETUP EQU         0$/;"	d
+BCFG3_Val	Startup.s	/^BCFG3_Val   EQU         0x0000FBEF$/;"	d
+BOOL	type.h	/^typedef unsigned int   BOOL;$/;"	t
+BYTE	type.h	/^typedef unsigned char  BYTE;$/;"	t
+DAbt_Addr	Startup.s	/^DAbt_Addr       DCD     DAbt_Handler$/;"	l
+DAbt_Handler	Startup.s	/^DAbt_Handler    B       DAbt_Handler$/;"	l
+DWORD	type.h	/^typedef unsigned long  DWORD;$/;"	t
+EMC_BASE	Startup.s	/^EMC_BASE        EQU     0xFFE00000      ; EMC Base Address$/;"	d
+EMC_SETUP	Startup.s	/^EMC_SETUP       EQU     0$/;"	d
+FALSE	type.h	/^#define FALSE /;"	d
+FIQ_Addr	Startup.s	/^FIQ_Addr        DCD     FIQ_Handler$/;"	l
+FIQ_Handler	Startup.s	/^FIQ_Handler     B       FIQ_Handler$/;"	l
+FIQ_Stack_Size	Startup.s	/^FIQ_Stack_Size  EQU     0x00000000$/;"	d
+F_Bit	Startup.s	/^F_Bit           EQU     0x40            ; when F bit is set, FIQ is disabled$/;"	d
+Heap_Mem	Startup.s	/^Heap_Mem        SPACE   Heap_Size$/;"	l
+Heap_Size	Startup.s	/^Heap_Size       EQU     0x00000000$/;"	d
+IRQ_Addr	Startup.s	/^IRQ_Addr        DCD     IRQ_Handler$/;"	l
+IRQ_Handler	Startup.s	/^IRQ_Handler     B       IRQ_Handler$/;"	l
+IRQ_Stack_Size	Startup.s	/^IRQ_Stack_Size  EQU     0x00000080$/;"	d
+ISR_Stack_Size	Startup.s	/^ISR_Stack_Size  EQU     (UND_Stack_Size + SVC_Stack_Size + ABT_Stack_Size + \\$/;"	d
+I_Bit	Startup.s	/^I_Bit           EQU     0x80            ; when I bit is set, IRQ is disabled$/;"	d
+MAMCR_OFS	Startup.s	/^MAMCR_OFS       EQU     0x00            ; MAM Control Offset$/;"	d
+MAMCR_Val	Startup.s	/^MAMCR_Val       EQU     0x00000002$/;"	d
+MAMTIM_OFS	Startup.s	/^MAMTIM_OFS      EQU     0x04            ; MAM Timing Offset$/;"	d
+MAMTIM_Val	Startup.s	/^MAMTIM_Val      EQU     0x00000004$/;"	d
+MAM_BASE	Startup.s	/^MAM_BASE        EQU     0xE01FC000      ; MAM Base Address$/;"	d
+MAM_SETUP	Startup.s	/^MAM_SETUP       EQU     1$/;"	d
+MEMMAP	Startup.s	/^MEMMAP          EQU     0xE01FC040      ; Memory Mapping Control$/;"	d
+Mode_ABT	Startup.s	/^Mode_ABT        EQU     0x17$/;"	d
+Mode_FIQ	Startup.s	/^Mode_FIQ        EQU     0x11$/;"	d
+Mode_IRQ	Startup.s	/^Mode_IRQ        EQU     0x12$/;"	d
+Mode_SVC	Startup.s	/^Mode_SVC        EQU     0x13$/;"	d
+Mode_SYS	Startup.s	/^Mode_SYS        EQU     0x1F$/;"	d
+Mode_UND	Startup.s	/^Mode_UND        EQU     0x1B$/;"	d
+Mode_USR	Startup.s	/^Mode_USR        EQU     0x10$/;"	d
+NULL	type.h	/^#define NULL /;"	d
+PAbt_Addr	Startup.s	/^PAbt_Addr       DCD     PAbt_Handler$/;"	l
+PAbt_Handler	Startup.s	/^PAbt_Handler    B       PAbt_Handler$/;"	l
+PINSEL2	Startup.s	/^PINSEL2         EQU     0xE002C014      ; PINSEL2 Address$/;"	d
+PINSEL2_Val	Startup.s	/^PINSEL2_Val     EQU     0x0E6149E4      ; CS0..3, OE, WE, BLS0..3, $/;"	d
+PLLCFG_MSEL	Startup.s	/^PLLCFG_MSEL     EQU     (0x1F<<0)       ; PLL Multiplier$/;"	d
+PLLCFG_OFS	Startup.s	/^PLLCFG_OFS      EQU     0x04            ; PLL Configuration Offset$/;"	d
+PLLCFG_PSEL	Startup.s	/^PLLCFG_PSEL     EQU     (0x03<<5)       ; PLL Divider$/;"	d
+PLLCFG_Val	Startup.s	/^PLLCFG_Val      EQU     0x00000024$/;"	d
+PLLCON_OFS	Startup.s	/^PLLCON_OFS      EQU     0x00            ; PLL Control Offset$/;"	d
+PLLCON_PLLC	Startup.s	/^PLLCON_PLLC     EQU     (1<<1)          ; PLL Connect$/;"	d
+PLLCON_PLLE	Startup.s	/^PLLCON_PLLE     EQU     (1<<0)          ; PLL Enable$/;"	d
+PLLFEED_OFS	Startup.s	/^PLLFEED_OFS     EQU     0x0C            ; PLL Feed Offset$/;"	d
+PLLSTAT_OFS	Startup.s	/^PLLSTAT_OFS     EQU     0x08            ; PLL Status Offset$/;"	d
+PLLSTAT_PLOCK	Startup.s	/^PLLSTAT_PLOCK   EQU     (1<<10)         ; PLL Lock Status$/;"	d
+PLL_BASE	Startup.s	/^PLL_BASE        EQU     0xE01FC080      ; PLL Base Address$/;"	d
+PLL_Loop	Startup.s	/^PLL_Loop        LDR     R3, [R0, #PLLSTAT_OFS]$/;"	l
+PLL_SETUP	Startup.s	/^PLL_SETUP       EQU     1$/;"	d
+Reset_Addr	Startup.s	/^Reset_Addr      DCD     Reset_Handler$/;"	l
+Reset_Handler	Startup.s	/^Reset_Handler   $/;"	l
+SVC_Stack_Size	Startup.s	/^SVC_Stack_Size  EQU     0x00000008$/;"	d
+SWI_Addr	Startup.s	/^SWI_Addr        DCD     SWI_Handler$/;"	l
+SWI_Handler	Startup.s	/^SWI_Handler     B       SWI_Handler$/;"	l
+Stack_Mem	Startup.s	/^Stack_Mem       SPACE   USR_Stack_Size$/;"	l
+Stack_Top	Startup.s	/^Stack_Top$/;"	l
+TRUE	type.h	/^#define TRUE /;"	d
+UND_Stack_Size	Startup.s	/^UND_Stack_Size  EQU     0x00000000$/;"	d
+USR_Stack_Size	Startup.s	/^USR_Stack_Size  EQU     0x00000400$/;"	d
+Undef_Addr	Startup.s	/^Undef_Addr      DCD     Undef_Handler$/;"	l
+Undef_Handler	Startup.s	/^Undef_Handler   B       Undef_Handler$/;"	l
+VPBDIV	Startup.s	/^VPBDIV          EQU     0xE01FC100      ; VPBDIV Address$/;"	d
+VPBDIV_SETUP	Startup.s	/^VPBDIV_SETUP    EQU     0$/;"	d
+VPBDIV_Val	Startup.s	/^VPBDIV_Val      EQU     0x00000000$/;"	d
+Vectors	Startup.s	/^Vectors         LDR     PC, Reset_Addr         $/;"	l
+WORD	type.h	/^typedef unsigned short WORD;$/;"	t
+__TYPE_H__	type.h	/^#define __TYPE_H__$/;"	d
+__heap_base	Startup.s	/^__heap_base$/;"	l
+__heap_limit	Startup.s	/^__heap_limit$/;"	l
+__initial_sp	Startup.s	/^__initial_sp    SPACE   ISR_Stack_Size$/;"	l
+__user_initial_stackheap	Startup.s	/^__user_initial_stackheap$/;"	l
+init	main.c	/^int  init(void)$/;"	f

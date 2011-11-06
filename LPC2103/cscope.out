@@ -1,0 +1,85 @@
+cscope 15 $HOME/code/s3c2440/LPC2103 -q 0000000011 0000000379
+	@main.c
+
+1 
+	~"ty³.h
+"
+
+3 
+	$š™
+()
+
+6 
+	}
+}
+
+	@type.h
+
+1 
+	~"LPC210x.h
+"
+
+3 #iâdeà
+__TYPE_H__
+
+
+4 
+	#__TYPE_H__
+
+
+	)
+
+6 #iâdeà
+NULL
+
+
+7 
+	#NULL
+ ((*)0)
+
+	)
+
+10 #iâdeà
+FALSE
+
+
+11 
+	#FALSE
+ (0)
+
+	)
+
+14 #iâdeà
+TRUE
+
+
+15 
+	#TRUE
+ (1)
+
+	)
+
+18 
+	tBYTE
+;
+
+19 
+	tWORD
+;
+
+20 
+	tDWORD
+;
+
+21 
+	tBOOL
+;
+
+	@
+1
+.
+0
+2
+14
+main.c
+type.h

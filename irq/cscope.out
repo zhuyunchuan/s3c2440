@@ -1,0 +1,398 @@
+cscope 15 $HOME/code/s3c2440/irq -q 0000000053 0000001755
+	@clock.c
+
+2 
+	~<s3c2440.h
+>
+
+3 
+	~"þock.h
+"
+
+5 
+	$þock_š™
+()
+
+7 
+MPLLCON
+ = 0x7f021;
+
+8 
+CLKCON
+ |= 0x1a00;
+
+9 
+CLKDIVN
+ |= 0x03;
+
+12 
+	}
+}
+
+	@clock.h
+
+1 
+	~<s3c2440.h
+>
+
+3 
+þock_š™
+();
+
+	@init.c
+
+1 
+	~<s3c2440.h
+>
+
+2 
+	~"š™.h
+"
+
+4 
+	$gpio_š™
+()
+
+6 
+GPHCON
+ |= 0Xaaa0;
+
+7 
+GPHUP
+ |= 0xfc;
+
+10 
+	}
+}
+
+21 
+	$sy¡”m_š™
+()
+
+23 
+	`þock_š™
+();
+
+24 
+	`gpio_š™
+();
+
+25 
+	`com_š™
+();
+
+28 
+	}
+}
+
+30 
+	gi
+
+
+	@init.h
+
+1 
+	~<s3c2440.h
+>
+
+2 
+	~"u¬t.h
+"
+
+3 
+	~"þock.h
+"
+
+5 
+sy¡”m_š™
+();
+
+	@irq.c
+
+1 
+	~<s3c2440.h
+>
+
+3 
+	$š™_vic
+()
+
+5 
+	}
+}
+
+8 
+š¡®l_œq
+(
+št_num
+, (*è
+št_hªdËr
+)
+
+13 
+	$unš¡®l_œq
+(
+št_num
+)
+
+16 
+	}
+}
+
+	@irq.h
+
+1 #iâdeà
+__IRQ_H
+
+
+2 
+	#__IRQ_H
+
+
+	)
+
+4 
+	~<s3c2440.h
+>
+
+9 
+	#SYS32Mode
+ 0x1F
+
+	)
+
+10 
+	#IRQ32Mode
+ 0x12
+
+	)
+
+11 
+	#FIQ32Mode
+ 0x11
+
+	)
+
+13 
+	#WDT_INT
+ 0
+
+	)
+
+14 
+	#SWI_INT
+ 1
+
+	)
+
+15 
+	#ARM_CORE0_INT
+ 2
+
+	)
+
+16 
+	#ARM_CORE1_INT
+ 3
+
+	)
+
+17 
+	#TIMER0_INT
+ 4
+
+	)
+
+18 
+	#TIMER1_INT
+ 5
+
+	)
+
+19 
+	#UART0_INT
+ 6
+
+	)
+
+20 
+	#UART1_INT
+ 7
+
+	)
+
+21 
+	#PWM0_INT
+ 8
+
+	)
+
+22 
+	#I2C0_INT
+ 9
+
+	)
+
+23 
+	#SPI0_INT
+ 10
+
+	)
+
+24 
+	#SPI1_INT
+ 11
+
+	)
+
+25 
+	#PLL_INT
+ 12
+
+	)
+
+26 
+	#RTC_INT
+ 13
+
+	)
+
+27 
+	#EINT0_INT
+ 14
+
+	)
+
+28 
+	#EINT1_INT
+ 15
+
+	)
+
+29 
+	#EINT2_INT
+ 16
+
+	)
+
+30 
+	#EINT3_INT
+ 17
+
+	)
+
+31 
+	#ADC0_INT
+ 18
+
+	)
+
+32 
+	#I2C1_INT
+ 19
+
+	)
+
+33 
+	#BOD_INT
+ 20
+
+	)
+
+34 
+	#ADC1_INT
+ 21
+
+	)
+
+35 
+	#USB_INT
+ 22
+
+	)
+
+37 
+	#IRQ_SLOT_EN
+ 0x20
+
+	)
+
+38 
+	#VIC_SIZE
+ 16
+
+	)
+
+40 
+	#VECT_ADDR_INDEX
+ 0x100
+
+	)
+
+41 
+	#VECT_CNTL_INDEX
+ 0x200
+
+	)
+
+43 
+š™_vic
+();
+
+44 
+š¡®l_œq
+(
+št_num
+, (*è
+št_hªdËr
+);
+
+45 
+unš¡®l_œq
+(
+št_num
+);
+
+	@main.c
+
+1 
+	~<s3c2440.h
+>
+
+2 
+	~"u¬t.h
+"
+
+3 
+	~"š™.h
+"
+
+5 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+7 
+	`sy¡”m_š™
+();
+
+10 
+	}
+}
+
+	@
+1
+.
+0
+7
+49
+clock.c
+clock.h
+init.c
+init.h
+irq.c
+irq.h
+main.c

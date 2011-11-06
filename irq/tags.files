@@ -1,0 +1,7 @@
+	@clock.c
+	@clock.h
+	@init.c
+	@init.h
+	@irq.c
+	@irq.h
+	@main.c

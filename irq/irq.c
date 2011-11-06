@@ -2,6 +2,7 @@
 
 int init_vic(void)
 {
+	int  		
 }
 
 

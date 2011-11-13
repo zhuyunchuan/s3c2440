@@ -4,6 +4,55 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 D:\code\s3c2440\LPC2103\LPC2103.uvproj
-Project File Date:  <unknown>
+Project File Date:  11/13/2011
 
 <h2>Output:</h2>
+Build target 'Target 1'
+compiling gpio.c...
+gpio.h(20): warning:  #1295-D: Deprecated declaration beep_on - give arg types
+gpio.h(21): warning:  #1295-D: Deprecated declaration beep_off - give arg types
+gpio.c(42): error:  #84: invalid combination of type specifiers
+gpio.c(56): warning:  #1294-D: Old-style function led_on
+gpio.c(63): warning:  #1294-D: Old-style function led_off
+gpio.c(68): warning:  #1-D: last line of file ends without a newline
+compiling main.c...
+gpio.h(20): warning:  #1295-D: Deprecated declaration beep_on - give arg types
+gpio.h(21): warning:  #1295-D: Deprecated declaration beep_off - give arg types
+Target not created
+Build target 'Target 1'
+compiling gpio.c...
+gpio.c(54): warning:  #1294-D: Old-style function led_on
+gpio.c(61): warning:  #1294-D: Old-style function led_off
+compiling main.c...
+linking...
+Program Size: Code=1232 RO-data=16 RW-data=0 ZI-data=1256  
+"LPC2103.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\code\\s3c2440\\LPC2103\\LPC2103.AXF" 
+VTarget = 0.000V
+DLL version V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+JTAG speed: 1000 kHz
+Erase Failed!
+Load "D:\\code\\s3c2440\\LPC2103\\LPC2103.AXF" 
+VTarget = 3.338V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: RTCK reaction time is approx. 126ns
+Info: Auto JTAG speed: Adaptive
+DLL version V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x4F1F0F0F
+ARM7 identified.
+Using adaptive clocking instead of fixed JTAG speed.
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.

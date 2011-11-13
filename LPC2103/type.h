@@ -1,4 +1,4 @@
-#include "LPC2103.h" 
+#include "LPC210x.h" 
 
 #ifndef __TYPE_H__
 #define __TYPE_H__

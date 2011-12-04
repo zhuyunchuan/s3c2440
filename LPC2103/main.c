@@ -2,6 +2,8 @@
 #include "type.h"
 #include "config.h"
 #include "gpio.h"
+#include "uart.h"
+#include <stdio.h>
 
 void Delay(int delay)
 {
